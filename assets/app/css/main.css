@@ -98,8 +98,44 @@ header .main-menu a span {
   background-color: #ecf0f1;
 }
 
-.all-assignments h4 {
+.bg-blue {
+  background-color: #2980b9;
+}
+
+.bg-blue h4 {
+  color: #fff;
+  font-size: 36px;
+  line-height: 92px;
+}
+
+.bg-blue h4 span {
+  font-size: 24px;
+  margin-left: 28px;
+}
+
+.bg-blue {
+  border-top: 1px solid #fff;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #2980b9;
+}
+
+.all-assignments button {
+  font-size: 22px;
   font-weight: bold;
+  color: rgb(51, 51, 51);
+}
+
+.all-assignments button:hover,
+.all-assignments button:focus {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
 }
 
 .lets-go-button,
@@ -125,6 +161,7 @@ header .main-menu a span {
   font-size: 26px;
   padding: 14px 100px;
 }
+
 .lets-go-button:hover {
   color: #fff;
 }
@@ -147,15 +184,23 @@ header .main-menu a span {
   opacity: 1.0;
 }
 
-.badges li + li {
-  opacity: 0.5;
-}
-
 .wrap {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -164px;
-  padding-bottom: 164px;
+  margin-bottom: -170px;
+  padding-bottom: 170px;
 }
 
+.all-assignments-menu {
+  background-color: #ecf0f1;
+  top: auto;
+  bottom: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  float: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}

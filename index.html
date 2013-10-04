@@ -6,6 +6,8 @@
     <title>Mathspace</title>
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/app/css/main.css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -62,7 +64,32 @@
         </div>
       </div>
       <div class="row bg-gray">
-        <div class="col-sm-12 text-center all-assignments"><h4>View all Assigntments</h4></div>
+        <div class="col-sm-12 text-center all-assignments dropdown">
+          <div class="all-assignments-menu dropdown-menu" role="menu">
+            <div class="row bg-blue">
+              <div class="col-sm-12">
+                <h4>Adding Fractions <span class="text-muted">Due date: 13/01/13</span></h4>
+              </div>
+            </div>
+            <div class="row bg-blue">
+              <div class="col-sm-12">
+                <h4>Substracting Fractions <span class="text-muted">Due date: 13/01/13</span></h4>
+              </div>
+            </div>
+            <div class="row bg-blue">
+              <div class="col-sm-12">
+                <h4>Multiplying Fractions <span class="text-muted">Due date: 13/01/13</span></h4>
+              </div>
+            </div>
+            <div class="row bg-blue">
+              <div class="col-sm-12">
+                <h4>Dividing Fractions <span class="text-muted">Due date: 13/01/13</span></h4>
+              </div>
+            </div>
+            <div class="arrow-down"></div>
+          </div>
+          <button class="btn btn-link dropdown-toggle" data-toggle="dropdown">View all Assigntments</button>
+        </div>
       </div>
     </footer>
   </body>

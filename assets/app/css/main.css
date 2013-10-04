@@ -1,0 +1,161 @@
+html, body {
+  height: 100%;
+}
+/* reset margins */
+.row {
+  margin: 0;
+}
+
+header {
+  background-color: #2c3e50;
+}
+
+header button {
+  min-height: 50px;
+  padding: 9px 10px;
+  background-color: transparent;
+  border: none;
+  border-right: 1px solid #212e3b;
+}
+
+header button .icon-bar {
+  display: block;
+  background-color: #fff;
+  width: 22px;
+  height: 4px;
+}
+
+header button .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+header .main-menu a {
+  padding: 11px;
+  color: #fff;
+  background-color: #334455 !important;
+  border-left: 1px solid #26323f;
+}
+
+header .main-menu a span {
+  font-size: 24px;
+}
+
+.headline-img div {
+  padding: 0;
+}
+
+.headline-img img {
+  width: 100%;
+}
+
+.headline {
+  background-color: #444;
+}
+
+.headline h2 {
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+  line-height: 75px;
+}
+
+.study-progress {
+  margin-bottom: 10px;
+  background: #2ecc71; /* Old browsers */
+  background: -moz-linear-gradient(left,  #2ecc71 68%, #ecf0f1 68%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(68%,#2ecc71), color-stop(68%,#ecf0f1)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #2ecc71 68%,#ecf0f1 68%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #2ecc71 68%,#ecf0f1 68%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #2ecc71 68%,#ecf0f1 68%); /* IE10+ */
+  background: linear-gradient(to right,  #2ecc71 68%,#ecf0f1 68%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ecc71', endColorstr='#ecf0f1',GradientType=1 ); /* IE6-9 */
+}
+
+.study-progress > div {
+  height: 10px;
+}
+
+.bronze {
+  border-right: 3px solid #d96d00;
+}
+
+.silver {
+  border-right: 3px solid #aaa;
+}
+
+.gold {
+  border-right: 3px solid #ffc926;
+}
+
+
+.assignment h3,
+.assignment h4 {
+  font-weight: bold;
+}
+
+.bg-gray {
+  padding: 15px 0;
+  background-color: #ecf0f1;
+}
+
+.all-assignments h4 {
+  font-weight: bold;
+}
+
+.lets-go-button,
+.wallet-button {
+  border: none;
+  border-radius: 0;
+}
+
+.wallet-button {
+  background-color: #95a5a6;
+  padding: 20px;
+  margin-right: 15px;
+}
+
+.wallet-button span {
+  color: #fff;
+  font-size: 20px;
+}
+
+.lets-go-button {
+  color: #fff;
+  background-color: #2ecc71;
+  font-size: 26px;
+  padding: 14px 100px;
+}
+.lets-go-button:hover {
+  color: #fff;
+}
+
+.badges {
+  margin: 0;
+  padding: 0;
+}
+
+.badges li {
+  list-style: none;
+  display: inline-block;
+}
+
+.badges li img {
+  opacity: 0.5;
+}
+
+.badges li img.earned {
+  opacity: 1.0;
+}
+
+.badges li + li {
+  opacity: 0.5;
+}
+
+.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -164px;
+  padding-bottom: 164px;
+}
+

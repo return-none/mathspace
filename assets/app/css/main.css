@@ -61,17 +61,15 @@ header .main-menu a span {
 
 .study-progress {
   margin-bottom: 10px;
-  background: #2ecc71; /* Old browsers */
-  background: -moz-linear-gradient(left,  #2ecc71 68%, #ecf0f1 68%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(68%,#2ecc71), color-stop(68%,#ecf0f1)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left,  #2ecc71 68%,#ecf0f1 68%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left,  #2ecc71 68%,#ecf0f1 68%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(left,  #2ecc71 68%,#ecf0f1 68%); /* IE10+ */
-  background: linear-gradient(to right,  #2ecc71 68%,#ecf0f1 68%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ecc71', endColorstr='#ecf0f1',GradientType=1 ); /* IE6-9 */
 }
 
-.study-progress > div {
+.study-progress > .mark {
+  height: 10px;
+  z-index: 2;
+}
+
+.study-progress .progress_bar {
+  background: #2ecc71;
   height: 10px;
 }
 
@@ -105,7 +103,7 @@ header .main-menu a span {
 .bg-blue h4 {
   color: #fff;
   font-size: 36px;
-  line-height: 92px;
+  line-height: 98px;
 }
 
 .bg-blue h4 span {

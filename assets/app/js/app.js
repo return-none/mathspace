@@ -27,6 +27,7 @@ var AllAssigntmentsMenu = can.Control({},{
   },
   '.btn-link click': function(el, ev) {
     this.element.find('.all-assignments-menu').slideToggle();
+    $('.block-opacity').toggle();
   }
 });
 

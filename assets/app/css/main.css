@@ -55,8 +55,7 @@ header .main-menu a span {
 .headline h2 {
   color: #fff;
   font-weight: bold;
-  margin: 0;
-  line-height: 75px;
+  margin-bottom: 20px;
 }
 
 .study-progress {
@@ -101,14 +100,15 @@ header .main-menu a span {
 }
 
 .bg-blue h4 {
+  margin: 0;
   color: #fff;
-  font-size: 36px;
-  line-height: 98px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 100px;
 }
 
-.bg-blue h4 span {
-  font-size: 24px;
-  margin-left: 28px;
+.bg-blue .assignment-due {
+  color: #b4d3e7;
 }
 
 .bg-blue {
@@ -171,7 +171,7 @@ header .main-menu a span {
 
 .badges li {
   list-style: none;
-  display: inline-block;
+  float: left;
 }
 
 .badges li img {
@@ -201,4 +201,27 @@ header .main-menu a span {
   box-shadow: none;
   margin: 0;
   padding: 0;
+}
+
+/*responsive*/
+@media (max-width: 480px) {
+  .main-menu {
+    margin: 0;
+    width: auto;
+  }
+  .main-menu > li {
+    float: left;
+  }
+  .lets-go-button {
+    padding: 14px 50px;
+  }
+  .headline h2 {
+    font-size: 1.4em;
+  }
+  .badges li img {
+    width: 50px;
+  }
+  .bg-blue h4 {
+    line-height: 1;
+  }
 }

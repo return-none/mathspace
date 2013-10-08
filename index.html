@@ -41,9 +41,9 @@
           </div>
         </div>
         <div class="row study-progress">
-          <div class="mark col-sm-8 bronze"></div>
-          <div class="mark col-sm-2 silver"></div>
-          <div class="mark col-sm-2 gold"></div>
+          <div class="mark col-sm-8 col-xs-8 bronze"></div>
+          <div class="mark col-sm-2 col-xs-2 silver"></div>
+          <div class="mark col-sm-2 col-xs-2 gold"></div>
         </div>
         <div class="row assignment"></div>
       </section>
@@ -59,12 +59,12 @@
     </footer>
   </body>
   <script type='text/mustache' id='assignment-tmpl'>
-    <div class="col-sm-6">
+    <div class="col-sm-6 col-xs-6">
       <h3>Assignment</h3>
       <h4><span class="text-muted">Due Date: </span>{{due}}</h4>
       <h4><span class="text-muted">Target: </span>{{target}}</h4>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6 col-xs-6">
       <ul class="badges clearfix">
         <li><img class="earned" src="assets/app/img/badge.png"></li>
         <li><img src="assets/app/img/badge.png"></li>
@@ -79,7 +79,7 @@
         {{#assignments}}
           <div class="row bg-blue">
             <div class="col-sm-12">
-              <h4>{{name}} <span class="text-muted">Due date: {{due}}</span></h4>
+              <h4>{{name}} <span class="assignment-due">Due date: {{due}}</span></h4>
             </div>
           </div>
         {{/assignments}}

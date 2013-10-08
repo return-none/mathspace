@@ -21,10 +21,20 @@ can.fixture("GET /user", function(request, response) {
   return User;
 });
 
+var AllAssigntmentsMenu = can.Control({},{
+  init: function(el, options) {
+    this.element.html(can.view('assignments-tmpl', {assignments: options.assignments}));
+  },
+  '.btn-link click': function(el, ev) {
+    this.element.find('.all-assignments-menu').slideToggle();
+  }
+});
+
+
 $(document).ready(function() {
   UserModel.findOne({}, function(user) {
     $('.assignment').html(can.view('assignment-tmpl', user.assignment));
-    $('.all-assignments-container').html(can.view('assignments-tmpl', {assignments: user.allAssigntments}));
     $('.study-progress').append(can.view('progress-tmpl', {progress: user.progress}));
+    new AllAssigntmentsMenu('.all-assignments-container', {assignments: user.allAssigntments});
   });
 });
